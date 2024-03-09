@@ -12,7 +12,7 @@ import { CSSLayoutObject } from "@lib/CSSLayoutObject";
 import { setSceneLights } from "./utils/setSceneLights";
 import { CSSLayoutObjectFit } from "@lib/types";
 import { getMaterials } from "./utils/getMaterials";
-import { getPrimitives } from "@/threeUtils/getGeometries";
+import { getPrimitives } from "@/threeUtils/getPrimitives";
 import { threeResize } from "@/threeUtils/onResize";
 
 let container: HTMLElement;

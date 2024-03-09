@@ -1,0 +1,11 @@
+Model Information:
+* title:	aiPhone 15 Pro - Low Poly smartphone
+* source:	https://sketchfab.com/3d-models/aiphone-15-pro-low-poly-smartphone-a3f10f0cc893468e85f454d4d5486e99
+* author:	hysokana (https://sketchfab.com/hysokana)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "aiPhone 15 Pro - Low Poly smartphone" (https://sketchfab.com/3d-models/aiphone-15-pro-low-poly-smartphone-a3f10f0cc893468e85f454d4d5486e99) by hysokana (https://sketchfab.com/hysokana) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

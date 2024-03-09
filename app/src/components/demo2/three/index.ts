@@ -32,7 +32,7 @@ export const initScene = () => {
   cssLayout.scroll(true);
 
   // Background
-  /*  backgroundBox = getBackgroundBox();
+  backgroundBox = getBackgroundBox();
   const cssLayoutBackground = new CSSLayoutObject("#background", "fill");
   cssLayoutBackground.add(backgroundBox.box);
   cssLayout.add(cssLayoutBackground);
@@ -66,7 +66,7 @@ export const initScene = () => {
 
     cssLayout.add(cssLayoutSofa2);
     cssLayout.fitCamera(camera, "cover");
-  }); */
+  });
 
   scene.add(cssLayout);
 
@@ -82,7 +82,7 @@ export const initScene = () => {
 
   renderer.setAnimationLoop(animation);
   function animation() {
-    //backgroundBox.setTime(clock.getElapsedTime());
+    backgroundBox.setTime(clock.getElapsedTime());
     cssLayout.updateObjects();
     renderer.render(scene, camera);
   }
@@ -92,7 +92,7 @@ export const initScene = () => {
     const [width, height] = threeResize(layout, renderer, camera);
 
     cssLayout.fitCamera(camera, "cover");
-    //backgroundBox.setResolution(width, height);
+    backgroundBox.setResolution(width, height);
   }
 
   window.onresize = resize;
@@ -106,5 +106,5 @@ export const disposeScene = () => {
   renderer.dispose();
 
   scene.clear();
-  //backgroundBox.dispose();
+  backgroundBox.dispose();
 };

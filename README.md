@@ -9,9 +9,7 @@
 TLDR - Three CSS Layout will fit any `Object3D` inside an animated `<div />`.
 
 <p align="center">
-   <video align="center" width="512" controls>
-   <source src="./app/public/ThreeCssLayout.mp4" type="video/mp4" />
-   </video>
+   <img src="./app/public/ThreeCssLayout.gif" width="512"/>
 </p>
 
 Three CSS Layout aim to simplify the positioning, scaling and rotation of three.js objects relative to an HTML layout. Consists of two classes, the parent layout `CSSLayout` and its child objects `CSSLayoutObject`. The combination of these two classes allow you to take advantage of the HTML structure and emulate CSS responsiveness, transitions, keyframe animations and scroll inside a three.js environment.

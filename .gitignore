@@ -1,4 +1,5 @@
 # Logs
+.vscode
 logs
 *.log
 npm-debug.log*
@@ -8,7 +9,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
+dist/app
 dist-ssr
 *.local
 

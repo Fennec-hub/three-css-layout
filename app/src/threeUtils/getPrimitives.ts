@@ -1,6 +1,5 @@
 import {
   CatmullRomCurve3,
-  CircleGeometry,
   ConeGeometry,
   CylinderGeometry,
   OctahedronGeometry,
