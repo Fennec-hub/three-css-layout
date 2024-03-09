@@ -2,18 +2,18 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/my-lib.umd.cjs",
-  "module": "./dist/my-lib.js",
+  "main": "dist/three-css-layout.umd.cjs",
+  "module": "./dist/three-css-layout.js",
   "exports": {
     ".": {
-      "import": "./dist/my-lib.js",
-      "require": "./dist/my-lib.umd.cjs"
+      "import": "./dist/three-css-layout.js",
+      "require": "./dist/three-css-layout.umd.cjs"
     }
   },
   "name": "three-css-layout",
   "version": "0.0.0",
   "type": "module",
-  "typings": "dist/lib",
+  "types": "dist/lib/index.d.ts",
   "scripts": {
     "dev": "vite serve --config=vite.app.config.js",
     "build": "vue-tsc && vite build --config=vite.lib.config.js",
