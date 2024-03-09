@@ -1,0 +1,43 @@
+.layout.pulse > div {
+  &:nth-child(1) {
+    animation: pulse 2s infinite;
+  }
+
+  &:nth-child(3) {
+    animation: pulse2 3.3s infinite ease-in-out;
+  }
+
+  &:nth-child(5) {
+    animation: pulse3 2.5s infinite ease-in-out;
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes pulse2 {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes pulse3 {
+  0%,
+  100% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+}

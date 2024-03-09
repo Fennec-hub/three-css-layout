@@ -1,0 +1,13 @@
+.dots {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  font-size: 14em;
+  line-height: 0.5em;
+  margin: -2rem auto 10rem !important;
+
+  &:before,
+  &:after {
+    content: ".";
+  }
+}

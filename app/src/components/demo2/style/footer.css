@@ -1,0 +1,71 @@
+.footer {
+  display: flex;
+  flex-flow: column;
+  min-height: 500px;
+  margin: 0 auto !important;
+  color: #aaa;
+  background: #222;
+  border-radius: 1.5em 1.5em 0 0;
+
+  > div {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+
+    > * {
+      flex: 1;
+      padding: 1em 2em;
+    }
+
+    p {
+      margin: 0 0 0 1em;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 10%;
+      min-width: 2px;
+      min-height: 80%;
+      background: #aaa;
+    }
+  }
+
+  > u {
+    height: 2.5em;
+    background: #181818;
+    margin: 0 -1em;
+  }
+
+  svg {
+    font-size: 2em !important;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  .links {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+    a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    i,
+    b {
+      min-width: 2.5rem;
+      margin: 0 0.5rem 0 0;
+    }
+
+    b {
+      padding: 0.25rem;
+      font-size: 1.7em;
+    }
+  }
+}

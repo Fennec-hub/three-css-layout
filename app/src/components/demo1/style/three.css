@@ -1,0 +1,19 @@
+#three {
+  header {
+    padding: 0.25em 1em 0.25em 3em;
+  }
+
+  .layout {
+    padding: 0;
+  }
+
+  canvas {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .v-dropdown-menu__trigger {
+    align-items: flex-end;
+  }
+}

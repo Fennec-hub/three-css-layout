@@ -1,0 +1,40 @@
+.hero {
+  display: flex;
+  min-height: 500px;
+
+  > div {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    flex: 1;
+    width: 50%;
+    min-height: 400px;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.5em;
+    margin: 0;
+  }
+
+  i {
+    margin: ;
+  }
+
+  ul {
+    font-size: 1.5em;
+    list-style: none;
+  }
+
+  li {
+    &:before {
+      content: "“";
+      margin: 0 0.1em 0 0;
+      font-size: 1.25em;
+      font-weight: bold;
+    }
+  }
+}

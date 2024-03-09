@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  align-items: center;
+  font-size: 0.8;
+
+  .logo {
+    margin: 0 auto 0 0;
+  }
+
+  i {
+    margin: 0 1em;
+  }
+}

@@ -1,0 +1,53 @@
+.layout.drop > div {
+  &:nth-child(1) {
+    transform-origin: bottom right;
+    animation: drop 3s infinite;
+  }
+
+  &:nth-child(3) {
+    transform-origin: bottom left;
+    animation: drop2 2.8s infinite;
+  }
+}
+
+@keyframes drop {
+  0% {
+    transform: rotate3D(0, 0, 1, 0deg);
+  }
+  20% {
+    transform: rotate3D(0, 0, 1, -180deg);
+  }
+  50% {
+    transform: rotate3D(0, 0, 1, -125deg);
+  }
+  85% {
+    transform: rotate3D(0, 0, 1, -145deg);
+  }
+  100% {
+    transform: translate(0, 300%) rotate3D(0, 0, 1, -145deg);
+  }
+}
+
+@keyframes drop2 {
+  0%,
+  5% {
+    transform: rotate3D(1, 0, 0, 0);
+  }
+  25% {
+    transform: rotate3D(1, 0, 0, 240deg);
+  }
+  40%,
+  45% {
+    transform: rotate3D(1, 0, 0, 145deg);
+  }
+  65% {
+    transform: rotate3D(1, 0, 0, 180deg);
+  }
+  75% {
+    transform: rotate3D(1, 0, 0, 180deg) rotate3D(0, 0, 1, -15deg);
+  }
+  100% {
+    transform: translate(0, 150%) rotate3D(1, 0, 0, 180deg)
+      rotate3D(0, 0, 1, -35deg);
+  }
+}

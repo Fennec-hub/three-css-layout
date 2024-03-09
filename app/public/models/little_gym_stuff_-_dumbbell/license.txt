@@ -1,0 +1,11 @@
+Model Information:
+* title:	Little Gym Stuff - Dumbbell
+* source:	https://sketchfab.com/3d-models/little-gym-stuff-dumbbell-17f0629f7a714cfc8821e45ecbf5d273
+* author:	AJVFX (https://sketchfab.com/ajvisualeffects)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Little Gym Stuff - Dumbbell" (https://sketchfab.com/3d-models/little-gym-stuff-dumbbell-17f0629f7a714cfc8821e45ecbf5d273) by AJVFX (https://sketchfab.com/ajvisualeffects) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

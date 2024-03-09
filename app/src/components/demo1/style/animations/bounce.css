@@ -1,0 +1,26 @@
+.layout.bounce > div {
+  transform-origin: bottom center;
+
+  &:nth-child(2) {
+    animation: bounce 1.5s infinite;
+  }
+
+  &:nth-child(4) {
+    animation: bounce 3.3s infinite ease-in-out;
+  }
+
+  &:nth-child(6) {
+    animation: bounce 2.5s infinite ease-in-out;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0) scale(1.15, 0.8);
+  }
+
+  50% {
+    transform: translateY(-3em) scale(1, 1.1);
+  }
+}

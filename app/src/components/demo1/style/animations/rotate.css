@@ -1,0 +1,51 @@
+.layout.rotate > div {
+  animation: rotate3d-3 4s infinite linear;
+
+  &:nth-child(1) {
+    animation: rotate 2s infinite;
+  }
+
+  &:nth-child(3) {
+    animation: rotate3d 3.3s infinite ease-in-out;
+  }
+
+  &:nth-child(5) {
+    animation: rotate3d-2 2.5s infinite ease-in-out;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate3d {
+  0% {
+    transform: rotate3d(1, 0, 0, 0deg);
+  }
+  100% {
+    transform: rotate3d(1, 0, 0, 360deg);
+  }
+}
+
+@keyframes rotate3d-2 {
+  0% {
+    transform: rotate3d(0.5, 1, 0, 0deg);
+  }
+  100% {
+    transform: rotate3d(0.5, 1, 0, 360deg);
+  }
+}
+
+@keyframes rotate3d-3 {
+  0% {
+    transform: rotate3d(0, 1, 0, 0deg);
+  }
+  100% {
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}

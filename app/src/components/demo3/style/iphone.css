@@ -1,0 +1,14 @@
+#iphone {
+  transform: rotate3d(-0.1, 1, 0, 150deg);
+  animation: floatingPhone 8s infinite ease-in-out;
+}
+
+@keyframes floatingPhone {
+  0%,
+  100% {
+    transform: translate3d(0, 1em, 0) rotate3d(-0.1, 1, 0, 140deg);
+  }
+  50% {
+    transform: translate3d(0, -1em, 0) rotate3d(-0.1, 1, 0, 182deg);
+  }
+}

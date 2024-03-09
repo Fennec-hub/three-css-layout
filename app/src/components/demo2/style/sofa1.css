@@ -1,0 +1,16 @@
+#sofa1 {
+  animation: floatingSofa1 8s infinite ease-in-out;
+}
+
+@keyframes floatingSofa1 {
+  0%,
+  100% {
+    transform: rotate3d(0, 1, 1, -5deg) translate(0, 1em);
+  }
+  50% {
+    transform: rotate3d(0, 1, 1, 5deg) translate(0, -1em);
+  }
+  50% {
+    transform: rotate3d(0, 1, 0, 5deg) translate(0, 1em);
+  }
+}

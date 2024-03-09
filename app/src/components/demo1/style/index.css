@@ -1,0 +1,135 @@
+@import "../../../assets/style/reboot";
+@import "container";
+@import "recording";
+@import "three";
+
+body {
+  background: #222;
+}
+
+#demo1 {
+  --head-height: 3em;
+  max-width: 1920px;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  color: #aaa;
+  background: #222;
+
+  > main {
+    position: relative;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    height: calc(100vh - var(--head-height));
+    margin: 0.5em 0;
+
+    > s {
+      position: absolute;
+      z-index: 10;
+      top: 1em;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-flow: column-reverse;
+      align-items: center;
+      font-weight: 900;
+      cursor: pointer;
+      opacity: 1;
+      transition: opacity 0.7s, transform 0.7s;
+
+      i {
+        margin: 0.5em;
+        padding: 0.35em;
+        background: #222;
+        border: 2px solid #aaa;
+        border-radius: 100%;
+      }
+
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    > u {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 2px;
+      height: calc(100% - 6em);
+      transform: translate(-50%, -50%) scaleY(1);
+      background: #aaa;
+      transform-origin: top center;
+      transition: transform 0.7s ease-out;
+    }
+
+    > i {
+      position: absolute;
+      z-index: 10;
+      left: 50%;
+      transform: translate(-50%, calc(50vh - var(--head-height))) rotate(45deg);
+      padding: 0.35em;
+      color: #fff;
+      background: #222;
+      border: 2px solid #aaa;
+      border-radius: 100%;
+      cursor: pointer;
+      transition: transform 1s ease-out;
+
+      &:hover {
+        border-color: #fff;
+      }
+    }
+  }
+
+  .split {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: calc(100vh - var(--head-height));
+    margin: auto;
+
+    &.plane {
+      overflow: auto;
+
+      .container {
+        min-width: 35%;
+      }
+    }
+  }
+
+  .overlap {
+    > s {
+      opacity: 0;
+      transform: translate(-50%, -100%);
+      pointer-events: none;
+    }
+
+    > u {
+      transform: translate(-50%, -50%) scaleY(0);
+    }
+
+    > i {
+      transform: translate(-50%, 1em) rotate(45deg);
+    }
+
+    .split {
+      &:first-of-type main {
+        transform: translateX(calc(25vw));
+      }
+
+      &:last-of-type {
+        main {
+          transform: translateX(calc(-25vw));
+        }
+
+        .container:last-child {
+          pointer-events: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+/* #demo1 {
+  background: #111 !important;
+}
+ */
+.recording {
+  .split:first-of-type {
+    header {
+      position: relative;
+      z-index: 1000;
+
+      > div {
+        transform: translateX(535px);
+      }
+    }
+
+    .v-dropdown-menu__trigger i {
+      display: none;
+    }
+  }
+
+  .split:last-of-type {
+    header > div {
+      transform: translateX(195px);
+    }
+
+    .v-dropdown-menu__trigger i {
+      display: none;
+    }
+  }
+
+  .overlap > i {
+    display: none;
+  }
+}

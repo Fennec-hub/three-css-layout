@@ -1,0 +1,22 @@
+.v-dropdown-menu__trigger {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  i {
+    margin: 0 0 0 0.5em;
+    transform: rotate(-90deg);
+  }
+}
+
+.v-dropdown-menu__container {
+  background: #444 !important;
+  border: none !important;
+  border-radius: 1em;
+}
+
+.v-dropdown-menu__body {
+  display: flex;
+  flex-flow: column;
+  padding: 0.5em 0;
+}

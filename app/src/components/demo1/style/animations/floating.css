@@ -1,0 +1,47 @@
+.layout.float > div {
+  transform-style: preserve-3d;
+
+  &:nth-child(2) {
+    animation: floating1 3s infinite ease-in-out;
+  }
+
+  &:nth-child(4) {
+    animation: floating2 3.3s infinite ease-in-out;
+  }
+
+  &:nth-child(6) {
+    animation: floating3 2.5s infinite ease-in-out;
+  }
+}
+
+@keyframes floating1 {
+  0%,
+  100% {
+    transform: rotate3d(0, 1, 1, -5deg) translate(0, 1em);
+  }
+  50% {
+    transform: rotate3d(0, 1, 1, 5deg) translate(0, -1em);
+  }
+}
+
+@keyframes floating2 {
+  0%,
+  100% {
+    transform: rotate3d(1, 0, 0, 1.5deg) translate(0, 0.25em);
+  }
+
+  50% {
+    transform: rotate3d(1, 0, 0, 25deg) translate(0, -0.05em);
+  }
+}
+
+@keyframes floating3 {
+  0%,
+  100% {
+    transform: rotate3d(0, 1, 1, -1.5deg) translate3d(0, 0.25em, -0.05em);
+  }
+
+  50% {
+    transform: rotate3d(0, 1, 1, -5deg) translate3d(0, -1em, 0.05em);
+  }
+}

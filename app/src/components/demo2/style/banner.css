@@ -1,0 +1,47 @@
+.banner {
+  position: relative;
+  z-index: 1;
+  max-width: 100vw !important;
+  padding: 1em 0;
+  background: #fff;
+
+  .container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    p {
+      max-width: 50%;
+      text-align: center;
+    }
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: -5em 0 2em 0;
+    padding: 1.5em 1em;
+    background: #fff;
+    border-radius: 1em;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+      0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -7px rgba(0, 0, 0, 0.2);
+
+    u {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+    }
+
+    i {
+      margin: 0.5em;
+      color: #999;
+      font-size: 0.8em;
+      font-weight: 900;
+    }
+
+    svg {
+      color: #EF7660;
+    }
+  }
+}

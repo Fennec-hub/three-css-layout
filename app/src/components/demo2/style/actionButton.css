@@ -1,0 +1,9 @@
+.actionButton {
+  flex: unset;
+  padding: 0.8em 2em;
+  background: #e84117;
+  font-weight: 900;
+  color: #fff;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
