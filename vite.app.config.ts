@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
-  //base: "/three-css-layout/demo/",
+  base: "/three-css-layout/demo/",
   plugins: [
     vue({
       script: {
