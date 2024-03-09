@@ -88,7 +88,8 @@
         <div>
           <h4>Three CSS Layout</h4>
           <p>
-            This demo was created using <b><a href="https://threejs.org/">Three.js</a></b> and <b><a href="#">Three CSS
+            This demo was created using <b><a href="https://threejs.org/">Three.js</a></b> and <b><a
+                href="https://github.com/Fennec-hub/three-css-layout">Three CSS
                 Layout</a></b>, a JavaScript tool designed to
             simplify
             the positioning and scaling of Three.js objects within HTML elements.
@@ -96,8 +97,7 @@
           <h4>Links</h4>
           <p class="links">
             <a href="https://twitter.com/SaharianFennec"><b>𝕏</b> @SaharianFennec</a>
-            <a href="#"><i><v-icon name="bi-github" /></i>GitHub</a>
-            <a href="#"><i><v-icon name="la-npm" /></i>npm</a>
+            <a href="https://github.com/Fennec-hub/three-css-layout"><i><v-icon name="bi-github" /></i>GitHub</a>
           </p>
         </div>
         <div>

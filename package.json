@@ -13,7 +13,7 @@
   "name": "three-css-layout",
   "version": "0.0.0",
   "type": "module",
-  "typings": "",
+  "typings": "dist/lib",
   "scripts": {
     "dev": "vite serve --config=vite.app.config.js",
     "build": "vue-tsc && vite build --config=vite.lib.config.js",
