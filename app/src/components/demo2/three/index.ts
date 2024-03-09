@@ -1,11 +1,17 @@
-import { Clock, Color, PerspectiveCamera, Scene, WebGLRenderer } from "three";
+import {
+  Clock,
+  Color,
+  PerspectiveCamera,
+  Scene,
+  WebGLRenderer,
+  MathUtils,
+} from "three";
 
 import { CSSLayout, CSSLayoutObject } from "@lib/index";
 import { getBackgroundBox } from "./utils/getBackgroundBox";
 import { threeResize } from "../../../threeUtils/onResize";
 import { loadModel } from "../../../threeUtils/loadModel";
 import { setSceneLights } from "./utils/setSceneLights";
-import { degToRad } from "three/src/math/MathUtils";
 
 const clock = new Clock();
 
@@ -43,7 +49,7 @@ export const initScene = () => {
 
     // correct initial transformations
     sofa1.position.set(0, -30, 0);
-    sofa1.rotation.set(degToRad(25), degToRad(-20), 0);
+    sofa1.rotation.set(MathUtils.degToRad(25), MathUtils.degToRad(-20), 0);
 
     // CSSLayout
     const cssLayoutSofa1 = new CSSLayoutObject("#sofa1", "contain");
@@ -59,7 +65,7 @@ export const initScene = () => {
 
     // set initial center position
     sofa2.position.set(0, -45, 0);
-    sofa2.rotation.set(degToRad(25), degToRad(20), 0);
+    sofa2.rotation.set(MathUtils.degToRad(25), MathUtils.degToRad(20), 0);
 
     const cssLayoutSofa2 = new CSSLayoutObject("#sofa2", "contain");
     cssLayoutSofa2.add(sofa2);

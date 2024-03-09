@@ -24,7 +24,6 @@
 import type { CSSLayout } from "@lib/CSSLayout";
 import { loadModel } from "@/threeUtils/loadModel";
 import { CSSLayoutObject } from "@lib/CSSLayoutObject";
-import { degToRad } from "three/src/math/MathUtils";
 import {
   type Texture,
   type Mesh,
@@ -52,7 +51,11 @@ export const loadModels = (cssLayout: CSSLayout, camera: PerspectiveCamera) => {
 
       dumbbell.scale.setScalar(0.0025);
       dumbbell.position.set(0.05, 0.05, -0.02);
-      dumbbell.rotation.set(0, degToRad(-15), degToRad(-15));
+      dumbbell.rotation.set(
+        0,
+        MathUtils.degToRad(-15),
+        MathUtils.degToRad(-15)
+      );
       phone.add(dumbbell);
     });
 
@@ -61,7 +64,11 @@ export const loadModels = (cssLayout: CSSLayout, camera: PerspectiveCamera) => {
 
       kettleBell.scale.setScalar(0.004);
       kettleBell.position.set(-0.05, -0.05, 0.02);
-      kettleBell.rotation.set(0, degToRad(-15), degToRad(-10));
+      kettleBell.rotation.set(
+        0,
+        MathUtils.degToRad(-15),
+        MathUtils.degToRad(-10)
+      );
       phone.add(kettleBell);
     });
 

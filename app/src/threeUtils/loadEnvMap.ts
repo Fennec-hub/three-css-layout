@@ -21,7 +21,7 @@ export const loadEnvMap = ({
 
   const loader = new RGBELoader();
 
-  loader.load(`./HDR/${path}`, function (texture) {
+  loader.load(`./three-css-layout/HDR/${path}`, function (texture) {
     const envMap = pmremGenerator.fromEquirectangular(texture).texture;
 
     scene.environment = envMap;

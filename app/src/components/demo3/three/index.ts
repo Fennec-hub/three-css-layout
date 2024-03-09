@@ -82,7 +82,7 @@ export const initScene = () => {
   loadEnvMap({
     renderer,
     scene,
-    path: "studio_small_03_2k.hdr",
+    path: "/three-css-layout/studio_small_03_2k.hdr",
   });
 
   resize();
