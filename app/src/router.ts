@@ -1,18 +1,18 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 
 export const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory("/three-css-layout"),
   routes: [
     {
-      path: "/three-css-layout/",
+      path: "/",
       component: () => import("./components/demo1/Index.vue"),
     },
     {
-      path: "/three-css-layout/demo2",
+      path: "/demo2",
       component: () => import("./components/demo2/Index.vue"),
     },
     {
-      path: "/three-css-layout/demo3",
+      path: "/demo3",
       component: () => import("./components/demo3/Index.vue"),
     },
   ],

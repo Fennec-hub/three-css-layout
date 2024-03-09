@@ -96,7 +96,7 @@
           </p>
           <h4>Links</h4>
           <p class="links">
-            <a href="https://twitter.com/SaharianFennec"><b>𝕏</b> @SaharianFennec</a>
+            <a href="https://twitter.com/_Fennec_Xyz"><b>𝕏</b> @_Fennec_Xyz</a>
             <a href="https://github.com/Fennec-hub/three-css-layout"><i><v-icon name="bi-github" /></i>GitHub</a>
           </p>
         </div>

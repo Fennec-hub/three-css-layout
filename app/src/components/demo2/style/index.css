@@ -39,14 +39,14 @@ canvas {
     height: 100%;
     background: #eba601;
   }
-}
 
-.container {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  padding: 0 1rem;
-  margin: 0em auto 2rem;
+  .container {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0em auto 2rem;
+  }
 }
 
 .three {
