@@ -9,7 +9,6 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-page
 dist/app
 dist-ssr
 *.local
