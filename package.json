@@ -38,5 +38,28 @@
     "vite": "^5.1.0",
     "vite-plugin-dts": "^3.7.3",
     "vue-tsc": "^1.8.27"
-  }
+  },
+  "description": "<h1 align=\"center\">Three CSS Layout</h1>",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fennec-hub/three-css-layout.git"
+  },
+  "keywords": [
+    "three.js",
+    "css",
+    "html",
+    "dom",
+    "layout",
+    "3d",
+    "web"
+  ],
+  "author": "Fennec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fennec-hub/three-css-layout/issues"
+  },
+  "homepage": "https://github.com/Fennec-hub/three-css-layout#readme"
 }
