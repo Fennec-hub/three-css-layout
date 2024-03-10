@@ -8,6 +8,12 @@
 
 TLDR - Three CSS Layout will fit any `Object3D` inside an animated `<div />`.
 
+<div align="center">
+
+[Demo1](https://fennec-hub.github.io/three-css-layout/#/) — [Demo2](https://fennec-hub.github.io/three-css-layout/#/demo2) — [jsFiddle](https://jsfiddle.net/9rq0mfhu/) — [Wiki](https://github.com/Fennec-hub/three-css-layout/wiki)
+
+</div>
+
 <p align="center">
    <img src="./app/public/ThreeCssLayout.gif" width="512"/>
 </p>
