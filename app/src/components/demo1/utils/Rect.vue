@@ -3,11 +3,11 @@
 </template>
 
 <script lang="ts" setup>
-import { nextTick, ref } from 'vue';
+import { /* nextTick, */ ref } from 'vue';
 import { vOnClickOutside } from '@vueuse/components';
 
 const popup = defineModel<string>('popup');
-const animation = defineModel<string>('animation');
+// const animation = defineModel<string>('animation');
 
 const cell = ref<HTMLElement>();
 const pop = ref<string>("");
