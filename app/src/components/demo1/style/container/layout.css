@@ -22,9 +22,6 @@
     }
 
     .rect {
-      &:hover {
-        background: #444 !important;
-      }
       transition: transform 0.5s ease-out;
     }
   }

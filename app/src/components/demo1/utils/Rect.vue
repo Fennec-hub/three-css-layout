@@ -1,5 +1,5 @@
 <template>
-  <div ref="cell" :class="pop" :style="{ transform }" @click="setPopup" v-on-click-outside="reset" />
+  <div ref="cell" :class="pop" :style="{ transform }" v-on-click-outside="reset" />
 </template>
 
 <script lang="ts" setup>
@@ -13,7 +13,7 @@ const cell = ref<HTMLElement>();
 const pop = ref<string>("");
 const transform = ref<string>("");
 
-const setPopup = async () => {
+/* const setPopup = async () => {
   if (reset()) return;
 
   const element = cell.value!;
@@ -31,7 +31,7 @@ const setPopup = async () => {
   const scale = Math.min(mainWidth * 0.7 / width, mainHeight * 0.7 / height);
 
   transform.value = `translate3d(${(mainLeft + mainWidth / 2) - (left + width / 2)}px, ${(mainTop + mainHeight / 2) - (top + height / 2)}px, 5px) scale(${scale}, ${scale})`;
-}
+} */
 
 const reset = () => {
   if (popup.value) {
