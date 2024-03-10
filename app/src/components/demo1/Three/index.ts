@@ -169,8 +169,8 @@ export const setLayoutColor = (index: number, color: string) => {
 
 export const resize = () => {
   camera.near = 0.1;
-  camera.far = 2;
-  camera.position.z = 1;
+  camera.far = 30;
+  camera.position.z = 25;
 
   threeResize(container, renderer, camera);
 
