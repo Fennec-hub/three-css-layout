@@ -16,6 +16,7 @@ export default defineConfig({
         globals: { three: "THREE" },
       },
     },
+    sourcemap: true,
   },
   server: {
     open: true,
