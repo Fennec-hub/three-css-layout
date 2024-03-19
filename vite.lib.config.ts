@@ -27,7 +27,9 @@ export default defineConfig({
     },
   },
   plugins: [
-    dts({}),
+    dts({
+      insertTypesEntry: true,
+    }),
     terser({
       format: {
         comments: false,
